@@ -10,7 +10,7 @@ const NavMenuItems = ({ isFooterMenu = false }: Props) => {
       className={`flex max-md:${
         !isFooterMenu && "flex-col"
       } gap-12 lg:gap-16 max-md:gap-6 items-center
-     ${isFooterMenu ? "justify-between" : "justify-center"} `}
+     ${isFooterMenu ? "justify-left" : "justify-center"} `}
     >
       {headerLinks.map((link) => (
         <li key={link.href}>

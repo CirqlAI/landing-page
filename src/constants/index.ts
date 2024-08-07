@@ -7,42 +7,34 @@ export const headerLinks = [
     name: "Pricing",
     href: "pricing",
   },
-  {
-    name: "Blog",
-    href: "blog",
-  },
-  {
-    name: "Login",
-    href: "/",
-  },
 ];
 
 export const socialMediaLinks = [
-  {
-    name: "facebook",
-    src: "/icons/facebook.svg",
-    link: "#",
-  },
-  {
-    name: "instagram",
-    src: "/icons/instagram.svg",
-    link: "#",
-  },
+  // {
+  //   name: "facebook",
+  //   src: "/icons/facebook.svg",
+  //   link: "#",
+  // },
+  // {
+  //   name: "instagram",
+  //   src: "/icons/instagram.svg",
+  //   link: "#",
+  // },
   {
     name: "x",
     src: "/icons/x.svg",
-    link: "#",
+    link: "https://x.com/cirqlai",
   },
   {
     name: "linkedin",
     src: "/icons/linkedin.svg",
-    link: "#",
+    link: "https://www.linkedin.com/company/cirql-ai/",
   },
-  {
-    name: "youtube",
-    src: "/icons/youtube.svg",
-    link: "#",
-  },
+  // {
+  //   name: "youtube",
+  //   src: "/icons/youtube.svg",
+  //   link: "#",
+  // },
 ];
 
 export const theProblems = [

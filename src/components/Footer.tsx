@@ -39,13 +39,13 @@ const Footer = () => {
             &copy; {new Date().getFullYear()} Cirql. All rights reserved{" "}
           </span>
           <Link
-            to="#"
+            to="/privacyPolicy"
             className="hover:underline transition ease-in-out max-sm:text-sm text-nowrap"
           >
             Privacy Policy
           </Link>
           <Link
-            to="#"
+            to="/termsOfService"
             className="hover:underline transition ease-in-out max-sm:text-sm text-nowrap"
           >
             Terms of Service

@@ -3,9 +3,6 @@ import Lottie from "react-lottie";
 import Helmet from "react-helmet";
 
 const Waitlist = () => {
-  // const [email, setEmail] = useState("");
-  // const [error, setError] = useState("");
-
   const defaultOptions = {
     loop: true,
     autoplay: true,
@@ -14,22 +11,6 @@ const Waitlist = () => {
       preserveAspectRatio: "xMidYMid slice",
     },
   };
-
-  // const validateEmail = (email: string): boolean => {
-  //   const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-  //   return re.test(String(email).toLowerCase());
-  // };
-
-  // const handleSubmit = (e: FormEvent<HTMLFormElement>): void => {
-  //   e.preventDefault();
-  //   if (!validateEmail(email)) {
-  //     setError("Please enter a valid email address.");
-  //     return;
-  //   }
-  //   setError("");
-  //   console.log(email);
-  //   // Additional form submission logic here
-  // };
 
   return (
     <section id="waitlist" className=" w-full py-16 max-sm:py-10">
@@ -74,20 +55,47 @@ const Waitlist = () => {
             ></div>
             <Helmet>
               <link
-                rel="stylesheet"
-                type="text/css"
-                href="https://prod-waitlist-widget.s3.us-east-2.amazonaws.com/getwaitlist.min.css"
+                  rel="stylesheet"
+                  type="text/css"
+                  href="https://prod-waitlist-widget.s3.us-east-2.amazonaws.com/getwaitlist.min.css"
               />
-              <script src="https://prod-waitlist-widget.s3.us-east-2.amazonaws.com/getwaitlist.min.js"></script>
+              <script
+                  src="https://prod-waitlist-widget.s3.us-east-2.amazonaws.com/getwaitlist.min.js"></script>
+              <style type="text/css">
+                {`
+                #getWaitlistContainer input {
+                  height: 40px; /* Set a consistent height for the input */
+                  padding: 0 10px; /* Adjust padding for consistent size */
+                }
+
+                #getWaitlistContainer button {
+                  border-radius: .375rem 0 0 .375rem;
+                  height: 40px; /* Match the input field height */
+                  font-size: 1rem; /* Default font size */
+                  padding: 0 15px; /* Default padding */
+                }
+
+                #getWaitlistContainer button:hover {
+                  background-color: #333333; /* Darker background on hover */
+                }
+
+                @media (max-width: 640px) {
+                  #getWaitlistContainer button {
+                    font-size: 0.875rem; /* Slightly reduce font size on small screens */
+                    padding: 0 10px; /* Adjust padding on small screens */
+                  }
+                }
+              `}
+              </style>
             </Helmet>
           </>
         </div>
 
         <div
-          className="bg-gradient-cover bg-center max-md:max-w-[580px] max-md:w-full max-md:max-h-[470px] max-lg:w-[380px] max-lg:h-[330px] max-xl:w-[520px] max-xl:h-[380px] rounded-2xl max-md:py-3 max-md:px-2 py-6 px-4 w-[580px] h-[528px]
+            className="bg-gradient-cover bg-center max-md:max-w-[580px] max-md:w-full max-md:max-h-[470px] max-lg:w-[380px] max-lg:h-[330px] max-xl:w-[520px] max-xl:h-[380px] rounded-2xl max-md:py-3 max-md:px-2 py-6 px-4 w-[580px] h-[528px]
          bg-no-repeat flex items-center justify-center "
         >
-          <Lottie options={defaultOptions} height={250} width={250} />
+          <Lottie options={defaultOptions} height={250} width={250}/>
         </div>
       </div>
     </section>
