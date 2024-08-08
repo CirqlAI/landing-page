@@ -17,14 +17,18 @@ const Waitlist = () => {
       <div className="w-full flex max-md:flex-col-reverse items-center justify-between max-md:items-start max-md:justify-start gap-10">
         <div className="flex-1 max-w-lg w-[50%] max-md:w-full ">
           <h3 className="h3-bold">Start using Cirql today!</h3>
-          <p className="mt-8 text-medium ">
-            Say goodbye to inbox clutter and hello to a streamlined, productive
-            email experience.
+          <p className="mt-8 text-medium">
+            Say goodbye to inbox clutter and hello to a streamlined, productive email experience.
           </p>
-          <p className="mt-5 text-medium ">
-            Join Cirql now and take control of your inbox, turning cold emails
-            into cash while focusing on what truly matters.
+          <p className="mt-5 text-medium">
+            Join Cirql now and take control of your inbox, turning cold emails into cash while
+            focusing on what truly matters.
           </p>
+          <p className="mt-5 text-medium">
+            Have any questions? We're here to help! Feel free to reach out to us at <a
+              href="mailto:support@cirql.ai" className="text-primary underline">support@cirql.ai</a>.
+          </p>
+
           {/* <form onSubmit={handleSubmit}>
             <div className="mt-12 flex items-center max-w-[420px] w-full p-2 border-[1.5px] border-[#BFBFBF] rounded-[10px] ">
               <Input
@@ -48,10 +52,10 @@ const Waitlist = () => {
 
           <>
             <div
-              id="getWaitlistContainer"
-              data-waitlist_id="18907"
-              data-widget_type="WIDGET_2"
-              className="mt-10"
+                id="getWaitlistContainer"
+                data-waitlist_id="18907"
+                data-widget_type="WIDGET_2"
+                className="mt-10"
             ></div>
             <Helmet>
               <link

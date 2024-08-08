@@ -19,11 +19,11 @@ const Features = () => {
         </div>
 
         <div className="flex-1 max-w-lg w-[50%] max-md:w-full ">
-          <h3 className="h3-bold">Turn Cold Emails into Cash</h3>
+          <h3 className="h3-bold">Monetize Your Inbox with Cold Emails</h3>
           <p className="mt-8 text-medium ">
-            Cirql identifies cold emails and automatically responds with options
-            for scheduling a meeting. If salespeople are eager to reach you,
-            they can pay for the privilege.
+            Cirql transforms cold emails into opportunities.
+            Automatically respond with meeting options,
+            and let eager salespeople pay for premium access to your inbox.
           </p>
           <a href="#waitlist">
             <Button className="mt-10" size="lg">
@@ -38,9 +38,9 @@ const Features = () => {
         <div className="flex-1 max-w-lg  ">
           <h3 className="h3-bold">Streamline Your Inbox</h3>
           <p className="mt-8 text-medium ">
-            Cirql categorizes your emails seamlessly. Customize folders based on
-            your preferences, or let us suggest categories tailored to your
-            role, industry, and objectives.
+            Cirql streamlines your inbox with intelligent email categorization.
+            Customize folders or let us tailor categories based on your role,
+            industry, and goals, ensuring you focus on what matters.
           </p>
           <a href="#waitlist">
             <Button className="mt-10" size="lg">
@@ -76,9 +76,8 @@ const Features = () => {
         <div className="flex-1 max-w-lg ">
           <h3 className="h3-bold">Unlock Email Insights</h3>
           <p className="mt-8 text-medium ">
-            Gain insights into your email traffic with detailed reports. Track
-            the types of emails you receive — tasks, invoices, POs, and quotes —
-            at both individual and organizational levels.
+            Unlock valuable insights into your email traffic with detailed analytics.
+            Track tasks, invoices, POs, and quotes at both individual and organizational levels to stay ahead.
           </p>
           <a href="#waitlist">
             <Button className="mt-10" size="lg">

@@ -26,8 +26,8 @@ export default function Home() {
           <ControlYourData />
           <Privacy />
           <Pricing />
-          <FAQs />
           <Waitlist />
+          <FAQs />
         </div>
       </main>
       <Footer />
