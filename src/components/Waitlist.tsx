@@ -1,6 +1,5 @@
 import animationData from "../../public/cirql-animation.json";
 import Lottie from "react-lottie";
-import Helmet from "react-helmet";
 
 const Waitlist = () => {
   const defaultOptions = {
@@ -21,78 +20,18 @@ const Waitlist = () => {
             Say goodbye to inbox clutter and hello to a streamlined, productive email experience.
           </p>
           <p className="mt-5 text-medium">
-            Join Cirql now and take control of your inbox, turning cold emails into cash while
-            focusing on what truly matters.
+            <a href="https://platform.cirql.ai" target="_blank" rel="noopener noreferrer"
+               className="text-blue-500 underline">
+              Join Cirql now
+            </a>{" "}
+            and take control of your inbox, turning cold emails into cash while focusing on what
+            truly matters.
           </p>
           <p className="mt-5 text-medium">
             Have any questions? We're here to help! Feel free to reach out to us at <a
               href="mailto:support@cirql.ai" className="text-primary underline">support@cirql.ai</a>.
           </p>
 
-          {/* <form onSubmit={handleSubmit}>
-            <div className="mt-12 flex items-center max-w-[420px] w-full p-2 border-[1.5px] border-[#BFBFBF] rounded-[10px] ">
-              <Input
-                className="outline-none border-none focus-visible:outline-none focus-visible:ring-transparent text-base placeholder:text-body/60 "
-                onChange={(e) => setEmail(e.target.value)}
-                value={email}
-                type="email"
-                placeholder="Email address"
-              />
-              <Button type="submit">
-                <span>Join the waitlist</span>
-              </Button>
-            </div>
-            {error && (
-              <p className="mt-2 text-red-500 flex items-center">
-                <TriangleAlert className="text-red-500 mr-2 w-5 h-5 " />
-                <span>{error}</span>
-              </p>
-            )}
-          </form> */}
-
-          <>
-            <div
-                id="getWaitlistContainer"
-                data-waitlist_id="18907"
-                data-widget_type="WIDGET_2"
-                className="mt-10"
-            ></div>
-            <Helmet>
-              <link
-                  rel="stylesheet"
-                  type="text/css"
-                  href="https://prod-waitlist-widget.s3.us-east-2.amazonaws.com/getwaitlist.min.css"
-              />
-              <script
-                  src="https://prod-waitlist-widget.s3.us-east-2.amazonaws.com/getwaitlist.min.js"></script>
-              <style type="text/css">
-                {`
-                #getWaitlistContainer input {
-                  height: 40px; /* Set a consistent height for the input */
-                  padding: 0 10px; /* Adjust padding for consistent size */
-                }
-
-                #getWaitlistContainer button {
-                  border-radius: .375rem 0 0 .375rem;
-                  height: 40px; /* Match the input field height */
-                  font-size: 1rem; /* Default font size */
-                  padding: 0 15px; /* Default padding */
-                }
-
-                #getWaitlistContainer button:hover {
-                  background-color: #333333; /* Darker background on hover */
-                }
-
-                @media (max-width: 640px) {
-                  #getWaitlistContainer button {
-                    font-size: 0.875rem; /* Slightly reduce font size on small screens */
-                    padding: 0 10px; /* Adjust padding on small screens */
-                  }
-                }
-              `}
-              </style>
-            </Helmet>
-          </>
         </div>
 
         <div

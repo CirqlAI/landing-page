@@ -14,17 +14,24 @@ const Pricing = () => {
 
         <Tabs
             defaultValue="monthly"
-            className="w-[400px] mx-auto flex flex-col items-center justify-center mt-8 "
+            className="w-[400px] mx-auto flex flex-col items-center justify-center mt-8"
         >
           <TabsList>
             <TabsTrigger value="monthly" onClick={() => setPricing("monthly")}>
               Monthly
             </TabsTrigger>
-            <TabsTrigger value="annually" onClick={() => setPricing("annually")}>
-              Annually
-            </TabsTrigger>
+            <div className="relative flex items-center">
+              <TabsTrigger value="annually" disabled className="opacity-50 cursor-not-allowed">
+                Annually
+              </TabsTrigger>
+              <Badge variant="default"
+                     className="absolute top-0 right-[-10px] transform translate-y-[-50%]">
+                Coming soon
+              </Badge>
+            </div>
           </TabsList>
         </Tabs>
+
 
         <div
             className="w-full mt-24 max-sm:mt-12 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 content-center items-start max-md:gap-12 md:gap-6 lg:gap-10 ">
@@ -92,14 +99,16 @@ const Pricing = () => {
             <div className="mt-4">
               <div className="text-base text-body">
       <span className="text-primary text-[32px] font-bold">
-        {Pricing === "monthly" ? "$5" : "$50"}
+        {Pricing === "monthly" ? "$5.99" : "$50"}
       </span>
                 / {Pricing === "monthly" ? "month" : "year"}
               </div>
 
-              <Button size="lg" className="mt-6 w-full text-lg group">
-                Coming Soon
-              </Button>
+              <a href="https://platform.cirql.ai" target="_blank" rel="noopener noreferrer">
+                <Button size="lg" className="mt-6 w-full text-lg group">
+                  <span>Start Your Free Trial</span>
+                </Button>
+              </a>
 
               <div className="mt-6 space-y-3">
                 <div className="flex items-center gap-2">
@@ -122,7 +131,7 @@ const Pricing = () => {
                 </div>
                 <div className="flex items-center gap-2">
                   <Check className="text-accent w-5 h-5"/>
-                  <p>Email categorization (coming soon)</p>
+                  <p>Email categorization</p>
                 </div>
                 <div className="flex items-center gap-2">
                   <Check className="text-accent w-5 h-5"/>
