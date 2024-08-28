@@ -8,7 +8,7 @@ const PrivacyPolicy: React.FC = () => {
             Cirql Privacy Policy
           </h2>
           <p className="text-medium text-body mt-4 text-center text-gray-800 text-[1rem] font-semibold">
-            Last Updated: August 6th, 2024
+            Last Updated: August 27th, 2024
           </p>
 
           <p className="text-medium text-body mt-8 text-gray-900">
@@ -330,7 +330,21 @@ const PrivacyPolicy: React.FC = () => {
 
             <li>
               <h4 className="h4-bold text-[1.25rem] font-bold">
-                10. Changes to This Privacy Policy
+                10. Use of Google Workspace APIs
+              </h4>
+              <p className="text-medium text-body mt-2">
+                We affirm that Google Workspace APIs are not used to develop, improve, or train
+                generalized AI and/or ML models. We do not use your data in any way to develop,
+                train, or improve any machine learning models. All data accessed through Google
+                Workspace APIs is strictly utilized for the purpose of providing our services, with
+                robust measures in place to ensure its confidentiality and security.
+              </p>
+            </li>
+
+
+            <li>
+              <h4 className="h4-bold text-[1.25rem] font-bold">
+                11. Changes to This Privacy Policy
               </h4>
               <p className="text-medium text-body mt-2">
                 We may update this Privacy Policy from time to time in order to
@@ -344,7 +358,7 @@ const PrivacyPolicy: React.FC = () => {
 
             <li>
               <h4 className="h4-bold text-[1.25rem] font-bold">
-                11. Contact Us
+                12. Contact Us
               </h4>
               <p className="text-medium text-body mt-2">
                 If you have any questions about this Privacy Policy, please

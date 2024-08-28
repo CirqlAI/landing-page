@@ -61,15 +61,15 @@ const TermsOfService: React.FC = () => {
                 register for an account. You agree to:
               </p>
               <ul className="list-disc list-inside pl-5 mt-2 space-y-2">
-                <li>• 
+                <li>•
                   Provide accurate, current, and complete information during the
                   registration process.
                 </li>
-                <li>• 
+                <li>•
                   Maintain the security of your password and accept all risks of
                   unauthorized access to your account.
                 </li>
-                <li>• 
+                <li>•
                   Notify us immediately if you discover or suspect any security
                   breaches related to the Services or your account.
                 </li>
@@ -81,7 +81,7 @@ const TermsOfService: React.FC = () => {
                 5. Subscription and Fees
               </h4>
               <ul className="list-disc list-inside pl-5 mt-2 space-y-2">
-                <li> <span> • </span>
+                <li><span> • </span>
                   <strong>Subscription Fees:</strong> Cirql charges a
                   subscription fee for the use of its Services. The subscription
                   fee is $6 per user per month.
@@ -106,16 +106,16 @@ const TermsOfService: React.FC = () => {
                 accordance with these Terms. You agree not to:
               </p>
               <ul className="list-disc list-inside pl-5 mt-2 space-y-2">
-                <li>• 
+                <li>•
                   Use the Services in any way that violates any applicable federal,
                   state, local, or international law or regulation.
                 </li>
-                <li>• 
+                <li>•
                   Engage in any conduct that restricts or inhibits anyone's use or
                   enjoyment of the Services, or which, as determined by us, may
                   harm Cirql or users of the Services.
                 </li>
-                <li>• 
+                <li>•
                   Use the Services in any manner that could disable, overburden,
                   damage, or impair the Services or interfere with any other
                   party's use of the Services.
@@ -132,15 +132,15 @@ const TermsOfService: React.FC = () => {
                 using our Services, you acknowledge and agree that:
               </p>
               <ul className="list-disc list-inside pl-5 mt-2 space-y-2">
-                <li>• 
+                <li>•
                   Cirql will access and analyze your emails to provide filtering
                   and categorization services.
                 </li>
-                <li>• 
+                <li>•
                   Cirql may use AI and other technologies to improve the accuracy
                   and efficiency of its Services.
                 </li>
-                <li>• 
+                <li>•
                   Cirql will handle your data in accordance with its Privacy
                   Policy.
                 </li>
@@ -179,7 +179,7 @@ const TermsOfService: React.FC = () => {
               </p>
             </li>
 
-            <li>• 
+            <li>•
               <h4 className="h4-bold text-[1.25rem] font-bold">10. Termination</h4>
               <p className="text-medium text-body mt-2">
                 We may terminate or suspend your account and bar access to the
@@ -204,19 +204,19 @@ const TermsOfService: React.FC = () => {
               </p>
               <ul className="list-disc list-inside pl-5 mt-2 space-y-2">
                 <li>• Your use of the Services or inability to use the Services.</li>
-                <li>• 
+                <li>•
                   Any unauthorized access to or use of our servers and/or any
                   personal information stored therein.
                 </li>
-                <li>• 
+                <li>•
                   Any interruption or cessation of transmission to or from the
                   Services.
                 </li>
-                <li>• 
+                <li>•
                   Any bugs, viruses, trojan horses, or the like that may be
                   transmitted to or through our Services by any third party.
                 </li>
-                <li>• 
+                <li>•
                   Any errors or omissions in any content or for any loss or damage
                   incurred as a result of the use of any content posted, emailed,
                   transmitted, or otherwise made available through the Services.
@@ -235,7 +235,7 @@ const TermsOfService: React.FC = () => {
                 from or arising out of:
               </p>
               <ul className="list-disc list-inside pl-5 mt-2 space-y-2">
-                <li>• 
+                <li>•
                   Your use and access of the Services, by you or any person using
                   your account and password.
                 </li>
@@ -261,7 +261,43 @@ const TermsOfService: React.FC = () => {
             </li>
 
             <li>
-              <h4 className="h4-bold text-[1.25rem] font-bold">14. Changes to Terms</h4>
+              <h4 className="h4-bold text-[1.25rem] font-bold">14. Limitation of Liability for Email
+                Services</h4>
+              <p className="text-medium text-body mt-2">
+                Cirql provides email filtering, categorization, and management services. By using
+                our Services, you acknowledge and agree that:
+              </p>
+              <ul className="list-disc list-inside pl-5 mt-2 space-y-2">
+                <li>• Cirql shall not be liable for any direct, indirect, incidental, special,
+                  consequential, or punitive damages, including but not limited to, any loss of
+                  data, emails, or access to your email account that may result from the use of our
+                  Services.
+                </li>
+                <li>• Cirql is not responsible for any loss, miscategorization, misdelivery,
+                  deletion, or movement of emails that may occur while using our Services.
+                </li>
+                <li>• Cirql shall not be held liable for any misconfigurations of your email inbox
+                  or account settings, whether such misconfigurations are the result of user
+                  actions, automated processes, or errors within our Services.
+                </li>
+                <li>• You assume full responsibility for reviewing and managing the settings,
+                  filters, and configurations applied to your inbox and email account. It is your
+                  responsibility to ensure that these configurations meet your needs and
+                  expectations.
+                </li>
+                <li>• Cirql shall not be liable for any unauthorized access to, alteration of, or
+                  use of your email account or data, whether through our Services or otherwise.
+                </li>
+                <li>• By using our Services, you agree to indemnify, defend, and hold harmless Cirql
+                  from any claims, damages, losses, or liabilities arising out of or related to the
+                  use of our Services and any impact on your email account or inbox.
+                </li>
+              </ul>
+            </li>
+
+
+            <li>
+              <h4 className="h4-bold text-[1.25rem] font-bold">15. Changes to Terms</h4>
               <p className="text-medium text-body mt-2">
                 We reserve the right, at our sole discretion, to modify or replace
                 these Terms at any time. If a revision is material, we will try to
@@ -275,7 +311,7 @@ const TermsOfService: React.FC = () => {
             </li>
 
             <li>
-              <h4 className="h4-bold text-[1.25rem] font-bold">15. Contact Us</h4>
+              <h4 className="h4-bold text-[1.25rem] font-bold">16. Contact Us</h4>
               <p className="text-medium text-body mt-2">
                 If you have any questions about these Terms, please contact us at:
               </p>
